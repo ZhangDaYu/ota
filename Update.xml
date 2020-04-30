@@ -5,32 +5,36 @@
 		<name>fw0_boot</name>
 		<file>loader.bin</file>
 		<address>0x0</address>
+		<enable_crc>true</enable_crc>
 		<fw_id>0</fw_id>
-		<crc32>1035992589</crc32>
+		<crc32>2902130331</crc32>
 	</partition>
 	<partition>
 		<type>BOOT</type>
 		<name>fw1_boot</name>
 		<file>loader.bin</file>
 		<address>0x1000</address>
+		<enable_crc>true</enable_crc>
 		<fw_id>1</fw_id>
-		<crc32>1035992589</crc32>
+		<crc32>2902130331</crc32>
 	</partition>
 	<partition>
 		<type>SYSTEM</type>
 		<name>fw0_app</name>
 		<file>cbd.bin</file>
 		<address>0x10000</address>
+		<enable_crc>true</enable_crc>
 		<fw_id>0</fw_id>
-		<crc32>711940003</crc32>
+		<crc32>460279256</crc32>
 	</partition>
 	<partition>
 		<type>SYSTEM</type>
 		<name>fw1_app</name>
 		<file>cbd.bin</file>
 		<address>0x30000</address>
+		<enable_crc>true</enable_crc>
 		<fw_id>1</fw_id>
-		<crc32>711940003</crc32>
+		<crc32>460279256</crc32>
 	</partition>
 	<partitionsNum>4</partitionsNum>
 	<version>1.0.5</version>
